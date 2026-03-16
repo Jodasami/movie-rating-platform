@@ -1,0 +1,173 @@
+﻿@model ProyectoLenguajes.Models.SERIE
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link rel="stylesheet" href="~/css/tables.css">
+<header>
+    <div class="navbar">
+        @{
+            Html.RenderPartial("_Navbar");
+        }
+    </div>
+</header>
+<h1>Details</h1>
+
+<div>
+    <h4>SERIE</h4>
+    <hr />
+   
+    <table>
+        <tr>
+            <th colspan="2">SERIE</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Html.DisplayFor(model => model.name)</td>
+        </tr>
+        <tr>
+            <td>Seasons</td>
+            <td>@Html.DisplayFor(model => model.seasons)</td>
+        </tr>
+        <tr>
+            <td>Year</td>
+            <td>@Html.DisplayFor(model => model.year)</td>
+        </tr>
+        <tr>
+            <td>Director</td>
+            <td>@Html.DisplayFor(model => model.director)</td>
+        </tr>
+        <tr>
+            <td>Distributor:</td>
+            <td>@Html.DisplayFor(model => model.distributor)</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>
+                <div class="image">
+                    <img src="@Model.img" />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>@Html.DisplayFor(model => model.description)</td>
+        </tr>
+        <tr>
+            <td>Punctuation</td>
+            <td>@Html.DisplayFor(model => model.punctuation)</td>
+        </tr>
+        <tr>
+            <td>Trailer</td>
+            <td>
+                <div>
+                    <iframe class="trailer" src="@Model.trailer" frameborder="1"></iframe>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+</div>
+
+    <div>
+    <button class="createBTN">
+        <a asp-action="Edit" asp-route-id="@Model?.idSerie">Edit</a>
+        </button>
+        <span></span>
+    <span></span>
+    <span></span>
+    <button class="createBTN">
+        <a asp-action="Index">Back to List</a>
+        </button>
+        
+</div>
+<br />
+<br />
+<br />
+
+    <h1>Episodes</h1>
+<div>
+<button class="createBTN">
+    <a asp-controller="Episodes" asp-action="Create" asp-route-idSerie="@Model.idSerie">Create New</a>
+</button>
+</div>
+<br />
+<div class="wrapper">
+        <table class="table">
+            <caption>
+                All Episodes
+            </caption>
+            <thead>
+                <tr>
+                    <th>
+                       Num Chapter
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Duration
+                    </th>
+                    <th>
+                        Seasson
+                    </th>
+                    <th>
+                        Id Serie
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CHAPTERs)
+                {
+                    <tr>
+                    <td data-cell="Num Chapter">
+                            @Html.DisplayFor(modelItem => item.numChapter)
+                        </td>
+                    <td data-cell="Name">
+                            @Html.DisplayFor(modelItem => item.name)
+                        </td>
+                    <td data-cell="Duration">
+                            @Html.DisplayFor(modelItem => item.duration)
+                        </td>
+                    <td data-cell="Seasson">
+                            @Html.DisplayFor(modelItem => item.season)
+                        </td>
+                    <td data-cell="Id Serie">
+                            @Html.DisplayFor(modelItem => item.idSerie)
+                        </td>
+                    <td data-cell="Image">
+                           @* @Html.DisplayFor(modelItem => item.img)*@
+                            <div class="image"><img src="@item.img"></div>
+                        </td>
+                    <td data-cell="Description">
+                            @Html.DisplayFor(modelItem => item.description)
+                        </td>
+                    <td data-cell="Options">
+                        <div class="button-container">
+                            <div>
+                            <button> <a asp-action="Edit" asp-controller="Episodes" asp-route-id="@item.idChapter">Edit</a> </button>
+                            </div>
+                            <br>
+                            <div>
+                            <button> <a asp-action="Details" asp-controller="Episodes" asp-route-id="@item.idChapter">Details</a> </button>
+                            </div>
+                            <br>
+                            <div>
+                            <button> <a asp-action="Delete" asp-controller="Episodes" asp-route-id="@item.idChapter">Delete</a> </button>
+                            </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</div>
+

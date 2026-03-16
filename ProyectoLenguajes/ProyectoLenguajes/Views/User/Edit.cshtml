@@ -1,0 +1,130 @@
+﻿@model ProyectoLenguajes.Models.ACCOUNT
+
+@{
+    ViewData["Title"] = "Edit";
+}
+@ViewBag.Error
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/superadmin.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.11/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="~/js/site.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+    <h1><center>Edit</center></h1>
+
+    <h4>ACCOUNT</h4>
+    <hr />
+    <div class="row d-flex">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="idAccount" />
+                <div class="form-group">
+                    <label asp-for="name" class="control-label"></label>
+                    <input asp-for="name" class="form-control" />
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="email" class="control-label"></label>
+                    <input asp-for="email" class="form-control" />
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="roll" class="control-label"></label>
+                    <input asp-for="roll" class="form-control" readonly />
+                    <span asp-validation-for="roll" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="userName" class="control-label"></label>
+                    <input asp-for="userName" class="form-control" />
+                    <span asp-validation-for="userName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="password" class="control-label"></label>
+                    <input asp-for="password" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="img" class="control-label"></label>
+                    <input asp-for="img" id="img" class="form-control" readonly />
+                    <input type="hidden" id="selected-icon-url" name="SelectedIconUrl" value="@Model.img">
+                    <span asp-validation-for="img" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" /> |
+                    <a class="btn btn-info btn-primary m-2" href="/User/Index">Back to Profile</a>
+                </div>
+                @if (TempData["msg"] != null)
+                {
+                    <div class="form-group">
+                        @TempData["msg"]
+                    </div>
+                }
+            </form>
+        </div>
+        <div>
+
+            <div class="icon-container image-container">
+                <img id="edit-icon" src="@Model.img" data-url="@Model.img" onmouseover="showEditTooltip()" onclick="openPopup()" />
+                <span id="edit-tooltip" class="tooltip">Edit</span>
+            </div>
+
+            <div id="popup" class="modal" style="width: 600px;">
+                <div class="modal-content">
+                    <span id="closePopupButton" class="closeModal2">&times;</span>
+                    <div class="commentDiv">
+                        <input id="suggestions-input" type="text" />
+                        <div id="icon-matrix" class="d-flex" style="max-height: 200px; overflow-y: auto;">
+                            <!-- Aquí se mostrarán los iconos del sistema según lo escrito en el input -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("popup");
+        var span = document.getElementById("closePopupButton");
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+            document.getElementById('suggestions-input').value = ''; // Limpiar el valor del input
+        };
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.getElementById('suggestions-input').value = ''; // Limpiar el valor del input
+            }
+        };
+
+        function selectIcon(iconElement) {
+            // Obtener la URL del icono seleccionado
+            var selectedIconUrl = iconElement.dataset.url;
+
+            // Asignar la URL al campo en el modelo
+            var selectedIconInput = document.getElementById('selected-icon-url');
+            selectedIconInput.value = selectedIconUrl;
+        }
+    </script>
+</body>

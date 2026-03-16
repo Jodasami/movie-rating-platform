@@ -1,0 +1,78 @@
+﻿@model ProyectoLenguajes.Models.MOVIE
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link rel="stylesheet" href="~/css/tables.css">
+<header>
+    <div class="navbar">
+        @{
+            Html.RenderPartial("_Navbar");
+        }
+    </div>
+</header>
+<h1>Details</h1>
+
+<div>
+    <h4>MOVIE</h4>
+    <hr />
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>@Html.DisplayFor(model => model.name)</td>
+        </tr>
+        <tr>
+            <th>Duration</th>
+            <td>@Html.DisplayFor(model => model.duration)</td>
+        </tr>
+        <tr>
+            <th>Year</th>
+            <td>@Html.DisplayFor(model => model.year)</td>
+        </tr>
+        <tr>
+            <th>Director</th>
+            <td>@Html.DisplayFor(model => model.director)</td>
+        </tr>
+        <tr>
+            <th>Distributor</th>
+            <td>@Html.DisplayFor(model => model.distributor)</td>
+        </tr>
+        <tr>
+            <th>Image</th>
+            <td>
+                <div class="image">
+                    <img src="@Model.img" />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>@Html.DisplayFor(model => model.description)</td>
+        </tr>
+        <tr>
+            <th>Trailer</th>
+            <td>
+                <div>
+                    <iframe class="trailer" src="@Model.trailer" frameborder="1"></iframe>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>Punctuation</th>
+            <td>@Html.DisplayFor(model => model.punctuation)</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <div class="button-container">
+        <div>
+            <button> <a asp-action="Edit" asp-route-id="@Model?.idMovie">Edit</a>  </button>
+        </div>
+        <br>
+        <div>
+            <button> <a asp-action="Index">Return</a> </button>
+        </div>
+    </div>
+    |
+    
+</div>

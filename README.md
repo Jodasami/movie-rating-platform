@@ -1,23 +1,36 @@
 # Movie Rating Platform
 
-Web application similar to IMDB where users can rate movies and explore information about actors, genres and trailers.
+Aplicación web inspirada en plataformas como IMDB donde los usuarios pueden consultar información sobre películas y series, visualizar trailers y calificar contenido.
 
-## Technologies
+Este proyecto fue desarrollado como parte de un proyecto académico universitario.
 
+---
+
+## Tecnologías utilizadas
+
+Backend
 - ASP.NET
 - REST APIs
+- C#
+
+Frontend
+- HTML
+- CSS
 - JavaScript
+
+Base de datos
 - SQL Server
+- Stored Procedures
 
-## Features
+---
 
-- User movie rating system
-- Actor and genre information
-- Trailer visualization
-- Series episodes listing
+## Características principales
 
-## Authors
+- Visualización de información de películas y series
+- Sistema de calificación de películas por parte de los usuarios
+- Consulta de actores y géneros
+- Visualización de trailers
+- Consulta de episodios de series
+- Integración con APIs externas para obtener información de contenido
 
-- Josué Sánchez
-- Valeria Cubero
-- Esteban Madriz
+---

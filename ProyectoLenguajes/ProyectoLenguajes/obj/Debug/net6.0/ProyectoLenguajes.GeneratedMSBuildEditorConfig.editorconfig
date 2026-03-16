@@ -1,0 +1,241 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProyectoLenguajes
+build_property.RootNamespace = ProyectoLenguajes
+build_property.ProjectDir = C:\Universidad\UCR\Lenguajes para Aplicaciones comerciales\Proyecto lenguajes\ProyectoLenguajes_2023\ProyectoLenguajes\ProyectoLenguajes\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Universidad\UCR\Lenguajes para Aplicaciones comerciales\Proyecto lenguajes\ProyectoLenguajes_2023\ProyectoLenguajes\ProyectoLenguajes
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Actor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Actor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Episodes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Episodes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Episodes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Episodes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Episodes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXBpc29kZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Gender/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Gender/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Gender/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Gender/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Gender/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Movie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Series/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Series/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Series/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Series/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Series/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyaWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Shared/_NavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/AboutOf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxBYm91dE9mLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/SuperAdmin/Options.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxPcHRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/UserAuthentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/UserAuthentication/NoAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXE5vQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/UserAuthentication/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/MovieDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNb3ZpZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/searchByGender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZWFyY2hCeUdlbmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/User/SerieDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZXJpZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Universidad/UCR/Lenguajes para Aplicaciones comerciales/Proyecto lenguajes/ProyectoLenguajes_2023/ProyectoLenguajes/ProyectoLenguajes/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d7h69fcim5
