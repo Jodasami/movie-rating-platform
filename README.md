@@ -18,6 +18,6 @@ Web application similar to IMDB where users can rate movies and explore informat
 
 ## Authors
 
-Josué Sánchez
-Valeria Cubero
-Esteban 
+- Josué Sánchez
+- Valeria Cubero
+- Esteban Madriz
